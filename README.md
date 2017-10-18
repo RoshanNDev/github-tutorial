@@ -1,10 +1,11 @@
 # GitHub Tutorial
 
-_by <your-name-here>_
+_by <Mohammad Nadeem>_
 
 ---
 ## Git vs. GitHub
-
+Git:
+GitHub :
 
 
 ---
