@@ -8,9 +8,10 @@ _by Mohammad-Nadeem_
 
 
 ---
-## Initial Setup
-
-
+## Initial Setup        
+1. Open Google Chrome
+2. Go to [github](https://github.com)
+ 
 
 ---
 ## Repository Setup
