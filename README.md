@@ -14,10 +14,11 @@ _by Mohammad-Nadeem_
 3. Sign up for a Github account 
 4. Go to [Cloud9](https://c9.io)
 5. Sign up for C9
-6. Check your email you used for the sign ups and confirm your accounts if they are needed.
-7. Go bac to Github, log in if you haven't. Click on your profile icon on the top right corner. Click on settings, on the left you should see SSH and GPG keys. Once their click on "New SSH key" and title it cloud-9.
-8. Switch over to your cloud-9 log in if you haven't. On the top right youshould see a gear icon click it. Go to SSH key tab and copy the private SSH key given to your account.
- 
+6. Create a new workspace
+7. Check your email you used for the sign ups and confirm your accounts if they are needed.
+8. Go back to Github, log in if you haven't. Click on your profile icon on the top right corner. Click on settings, on the left you should see SSH and GPG keys. Once there click on "New SSH key" and title it cloud9.
+9. Switch over to c9.io log in if you haven't. On the top right you should see a gear icon click it. Go to SSH key tab and copy the private SSH key given to your account. Copy the SSH key and go back to Github, paste the key in the key box and click add SSH key.
+10. Go back to c9.io open up the workspace you have created and type this command "ssh -T git@github.com". If you have succesfully done this you should get a message "Hi (your username)! You've successfully authenticated, but GitHub does not provide shell access".
 
 ---
 ## Repository Setup
