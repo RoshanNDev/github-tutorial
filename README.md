@@ -52,4 +52,3 @@ Using basic workflow commands are necessary for using git. The basic command are
 * To undo git add use git reset.
 * To erase a commit entirely and go back to the pervious commit use 'git reset -- hard HEAD ~1'. To not get rid of your files and index use "git reset -- soft HEAD ~1" You can also use 'git revert' to go back to a pervious commit
 * To undo a push use 'git reset -- hard HEAD ~1' which goes back to the pervious commit and then force push by using 'git push -f'.
-* 
