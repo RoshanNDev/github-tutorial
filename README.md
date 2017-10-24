@@ -42,7 +42,7 @@ Making your first repo can be pretty exciting. After a couple of times creating 
 Using basic workflow commands are necessary for using git. The basic command are git status, add , commit, push
 * git status checks the status of the files in the repo if they have been added or not. 
 * git add, adds the files to the staging area and makes them ready for commit
-* git commit -m '' commits the changs you have made and finalizes the changes you have made it.
+* git commit -m '' commits the changes you have made and finalizes the changes you have made it.
 * git push pushes the changes you have made to your remote repo.
 
  
