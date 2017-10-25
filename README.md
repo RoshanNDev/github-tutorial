@@ -28,11 +28,11 @@ Making your first repo can be pretty exciting. After a couple of times creating 
 3. After that go into the folder by typing `cd` (your first repos name). The meaning of cd is change directory, and it changes your directory. You use cd to navigate around the folders you have created.
 4. When you cd to your folder the first thing you should do is `git init`. This command initializes git inside the folder so you can start coding.
 5. We can get started by creating your first file, type `touch` (filename). The touch command creates a new file under the folder you are in. Open up the file and type anything you want
-6. After you have modified your file type `git add` (filename). Git add gets the file for a commit so you can finalize the changes. Afer this type `git commit` -m '(Any message you want but make it meaningful).'' Git commit -m '' finalizes the changes you have added to the file. 
+6. After you have modified your file type `git add` (filename). Git add gets the file for a commit so you can finalize the changes. Afer this type `git commit` -m '(Any message you want but make it meaningful). `Git commit -m ''` finalizes the changes you have added to the file. 
 7. Before you can push, you have to create a repo on GitHub. Go to GitHub and on the top right you should see a + icon click on it and click new repository. The name should be the same as the repo you created in c9.io. So if you named your repo first-repo on c9 it should also be first-repo on GitHub. After naming the repo click create repo.
-8. After you have done that you should see a screen that says quick setup. Make sure you have SSH click on the top of this page. Copy one of the two commands on the bottom of the page they look similar to this "git remote add origin git@github.com:username/reponame.git" and "git push -u origin master".   
-9. Copy the commands one at a time. Copy the first command "git remote add origin git@github.com:username/reponame.git" and paste it in your repo that you have created. This command creates a bridge between your c9.io repo and remote repo on github.com. Then copy and paste the second command /`git push -u origin master`. This command makes it that if you do git push it will be pushed to the remote repo on GitHub. 
-10. Now just type **git push** to push the changes you have made to your remote repo you just created.
+8. After you have done that you should see a screen that says quick setup. Make sure you have SSH click on the top of this page. Copy one of the two commands on the bottom of the page they look similar to this `git remote add origin git@github.com:username/reponame.git` and `git push -u origin master`.   
+9. Copy the commands one at a time. Copy the first command `git remote add origin git@github.com:username/reponame.git` and paste it in your repo that you have created. This command creates a bridge between your c9.io repo and remote repo on github.com. Then copy and paste the second command `git push -u origin master`. This command makes it that if you do git push it will be pushed to the remote repo on GitHub. 
+10. Now just type `git push` to push the changes you have made to your remote repo you just created.
 
 
 
@@ -50,5 +50,5 @@ Using basic workflow commands are necessary for using git. The basic command are
 ---
 ## Rolling Back Changes
 * To undo git add use git reset.
-* To erase a commit entirely and go back to the previous commit use 'git reset -- hard HEAD ~1'. To not get rid of your files and index use "git reset -- soft HEAD ~1" You can also use 'git revert' to go back to a previous commit
-* To undo a push use 'git reset -- hard HEAD ~1' which goes back to the previous commit and then force push by using `git push -f`.
+* To erase a commit entirely and go back to the previous commit use `git reset -- hard HEAD ~1`. To not get rid of your files and index use `git reset -- soft HEAD ~1` You can also use `git revert` to go back to a previous commit
+* To undo a push use `git reset -- hard HEAD ~1` which goes back to the previous commit and then force push by using `git push -f`.
